@@ -5,6 +5,7 @@ body {
 section {
   background-image: linear-gradient( 35deg, black 0%, white 50%, black 100% );
   margin-top: 10%;
+  padding-bottom: 20px;
 }
 
 h1, h2 {
@@ -22,4 +23,33 @@ td, th {
 
 caption, td, th {
   padding: 15px 15px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 50px;
+}
+
+footer a {
+  color: grey;
+}
+
+i {
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+/*---------------------------------*/
+
+form {
+  /*text-align: center;*/
+  display: inline-block;
+  /*background-color: blue;*/
+  width: 60%;
+  text-align: right;
+}
+
+input {
+  width: 30%;
 }
