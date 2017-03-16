@@ -2,6 +2,25 @@ body {
   background-color: darkgrey;
 }
 
+header nav {
+  text-align: center;
+  background-color: black;
+  height: 40px;
+  /*vertical-align: middle;*/
+  padding-top: 2%;
+}
+
+header nav a {
+  margin: 0 4%;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: White;
+}
+
 section {
   background-image: linear-gradient( 35deg, black 0%, white 50%, black 100% );
   margin-top: 10%;

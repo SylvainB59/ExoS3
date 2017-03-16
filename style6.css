@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  width: 75%;
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 75px;
+}
+
+p {
+  font-family: Times, serif;
+  text-align: justify;
+  width: 20%;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.citation {
+  font-style: italic;
+  font-weight: lighter;
+  color: grey;
+}
+
+p, .important {
+  display: inline-block;
+}
+
+h2, .important {
+  color: #2C446B;
+}
+
+.important {
+  font-weight: bolder;
+  font-size: 1.3em;
+  margin: 20px 0;
+  padding: 0 15px;
+}
