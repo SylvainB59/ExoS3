@@ -53,3 +53,7 @@ form {
 input {
   width: 30%;
 }
+
+.email:required {
+  background-color: red;
+}
