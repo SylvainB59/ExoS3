@@ -1,0 +1,19 @@
+h1, h2 {
+  color: black
+}
+
+h1 {
+  font-family: times;
+}
+
+p {
+  color: grey;
+}
+
+h1, .list {
+  text-decoration: line-through;
+}
+
+.list ul {
+list-style-type: none;
+}
